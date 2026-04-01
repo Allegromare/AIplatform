@@ -21,7 +21,9 @@ source .venv/bin/activate
 
 ### Install
 
-```curl -fsSL https://claude.ai/install.sh | bash```
+```
+curl -fsSL https://claude.ai/install.sh | bash
+```
 
 ### Connect Claude Code to Openrouter
 You can configure Claude Code using a project-level settings file. Create the subdirectory .claude inside the project directory. Create settings.json file inside that subdirectory. The file should contain:
@@ -36,6 +38,9 @@ You can configure Claude Code using a project-level settings file. Create the su
   }
 }
 ```
+
 ### Luch Claude Code
 
-```claude```
+```
+claude
+```
