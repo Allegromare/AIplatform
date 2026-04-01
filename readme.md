@@ -1,19 +1,21 @@
 # Virtual environment
 
-Create
+## Create
 
 ```python3 -m venv .venv``` 
 
-Activate
+## Activate
 
 ```source .venv/bin/activate```
 
 
-# Install Claude Code
+# Claude Code
+
+## Install
 
 ```curl -fsSL https://claude.ai/install.sh | bash```
 
-# Connect Claude Code to Openrouter
+## Connect Claude Code to Openrouter
 You can configure Claude Code using a project-level settings file. Create the subdirectory .claude inside the project directory. Create settings.json file inside that subdirectory. The file should contain:
 
 ```
@@ -26,6 +28,6 @@ You can configure Claude Code using a project-level settings file. Create the su
   }
 }
 ```
-# Luch Claude Code
+## Luch Claude Code
 
 ```claude```
