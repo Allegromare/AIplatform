@@ -1,3 +1,12 @@
+# Virtual environment
+
+Create
+```python3 -m venv .venv``` 
+
+Activate
+``` ```
+
+
 # Install Claude Code
 
 ```curl -fsSL https://claude.ai/install.sh | bash```
